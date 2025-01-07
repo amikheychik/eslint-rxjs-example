@@ -1,0 +1,38 @@
+{
+  "name": "@smarttools/eslint-plugin-rxjs",
+  "version": "1.0.13",
+  "dependencies": {
+    "@typescript-eslint/utils": "^8.19.0",
+    "@typescript-eslint/rule-tester": "^8.13.0",
+    "common-tags": "^1.8.2",
+    "decamelize": "^6.0.0",
+    "typescript": "~5.5.4",
+    "tsutils": "^3.21.0",
+    "tsutils-etc": "^1.4.2",
+    "@angular-eslint/test-utils": "19.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaveMBush/eslint-plugin-rxjs"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "rxjs"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "./index.cjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "types": "./index.d.ts",
+      "import": "./index.cjs"
+    }
+  }
+}
